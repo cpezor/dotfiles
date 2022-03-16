@@ -1,0 +1,107 @@
+! Transparency
+/* *.alpha: 0.95 */
+/* ! Themes */
+
+/* !! alacritty theme: */
+*.foreground:  #c5c9de
+*.background:  #0f101a
+
+*.color0:      #181a29
+*.color8:      #282a40
+
+*.color1:      #F07178
+*.color9:      #eb7f84
+
+*.color2:      #cdea9f
+*.color10:     #e0ffad
+
+*.color3:      #ffd47e
+*.color11:     #ffee7e
+
+*.color4:      #93bbff
+*.color12:     #a3c5ff
+
+*.color5:      #d3a7ee
+*.color13:     #d6afed
+
+*.color6:      #98e4ff
+*.color14:     #98fffd
+
+*.color7:      #bfd5de
+*.color15:     #d1e5ed
+
+/* ! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* ! URXVT */
+/* ! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* /1* /2* Move in terminal output *2/ *1/ */
+/* URxvt*letterSpace: -1 */
+/* URxvt.keysym.A-k: command:\033]720;2\007 */
+/* URxvt.keysym.A-j: command:\033]721;2\007 */
+
+/* URxvt.keysym.A-u: command:\033]720;10\007 */
+/* URxvt.keysym.A-d: command:\033]721;10\007 */
+
+/* URxvt*imLocale: en_US.UTF-8 */
+/* URxvt*termName: rxvt-unicode-256color */
+/* URxvt*buffered: false */
+/* URxvt.intensityStyles: false */
+/* URxvt*locale:en_US.UTF-8 */
+/* URxvt*skipBuiltInGlyphs: true */
+
+/* URxvt.background: [94]#0f101a */
+/* URxvt.depth: 32 */
+
+/* /1* ! FONTS *1/ */
+
+/* #define font2         FiraCode Nerd Font */
+
+/* /1* URxvt*letterSpace: 0 *1/ */
+
+/* URxvt*font: xft:UbuntuMono Nerd Font:size=14:antialias=true, xft:font2:pixelsize=12:minspace=false, xft:font3:pixelsize=12, xft:font4:pixelsize=12:minspace=false */
+/* URxvt*boldFont: xft:UbuntuMono Nerd Font:bold:size=14:antialias=true, xft:font2:pixelsize=12:minspace=false, xft:font3:pixelsize=12, xft:font4:pixelsize=12:minspace=false */
+/* URxvt*italicFont: xft:UbuntuMono Nerd Font:italic:size=14:antialias=true, xft:font2:pixelsize=12:minspace=false, xft:font3:pixelsize=12, xft:font4:pixelsize=12:minspace=false */
+/* URxvt*boldItalicFont: xft:UbuntuMono Nerd Font:bold:italic:size=14:antialias=true, xft:font2:pixelsize=12:minspace=false, xft:font3:pixelsize=12, xft:font4:pixelsize=12:minspace=false */
+
+/* URxvt.saveLines: 2000 */
+/* URxvt.scrollBar: false */
+
+/* /1* !!  Extensions *1/ */
+/* URxvt.perl-ext-common: default, clipboard, font-size */
+
+/* /1* /2* !!  Clipboard *2/ *1/ */
+/* URxvt.iso14755 : false */
+/* URxvt.iso14755_52: false */
+
+/* URxvt.keysym.Shift-Control-V: eval:paste_clipboard */
+/* URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard */
+
+/* /1* !!  Resize-font *1/ */
+
+/* URxvt.keysym.C-plus:    font-size:increase */
+/* URxvt.keysym.C-minus:   font-size:decrease */
+/* URxvt.keysym.C-equal:   font-size:reset */
+/* URxvt.font-size.step: 2 */
+
+/* URxvt.keysym.C-plus:    perl:font-size:incglobal */
+/* URxvt.keysym.C-minus:   perl:font-size:decglobal */
+/* URxvt.keysym.C-slash:   perl:font-size:show */
+
+
+/* Xft*antialias: True */
+/* Xft*hinting:   Full */
+
+! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! XTERM
+! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! I like a LOT of scrollback...
+!XTerm*savelines: 16384
+! double-click to select whole URLs :D
+!XTerm*charClass: 33:48,36-47:48,58-59:48,61:48,63-64:48,95:48,126:48
+!! enable coloring for bold and underlined text
+!XTerm*vt100.boldColors     : False
+!XTerm*vt100.colorBDMode    : True
+!XTerm*vt100.colorULMode    : True
+!XTerm*vt100.colorRVMode    : False
+!XTerm*vt100.veryBoldColors : 6
